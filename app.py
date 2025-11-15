@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # Učitaj model
-model = joblib.load("model.pkl")
+model = joblib.load("houce_price_model.pkl")
 
 class HouseInput(BaseModel):
     living_area: float
