@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 // Your FastAPI backend URL
-const API_URL = "https://real-estate-price-predicition.onrender.com/";
+const API_URL = "https://real-estate-price-predicition.onrender.com";
 
 function App() {
   // Define form fields according to backend
